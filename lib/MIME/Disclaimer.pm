@@ -178,7 +178,7 @@ L<https://metacpan.org/release/MIME-Signature>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2019 Chris SCheller
+Copyright 2019 Chris Scheller
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a

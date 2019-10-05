@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!perl
 
 use 5.014;
 use warnings;
@@ -58,7 +58,7 @@ add-disclaimer - add a disclaimer to mail message
 
 =head1 SYNOPSIS
 
-    add-disclaimer -plain-file file <main.in >mail.out
+    add-disclaimer -plain-file file <mail.in >mail.out
 
 =head1 DESCRIPTION
 
