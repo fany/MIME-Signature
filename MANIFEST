@@ -5,11 +5,14 @@ bin/ezmlm-append-trailer	filter designed for ezmlm to append signatures to mails
 bin/ignore_errors		wrapper to pass through mails unchanged if no signature can be added
 Changes
 cpanfile
-lib/MIME/Signature.pm
 lib/MIME/Disclaimer.pm
+lib/MIME/Signature.pm
+Makefile
 Makefile.PL
-MANIFEST.SKIP			lists files not required in the distribution
 MANIFEST			This list of files
+MANIFEST.SKIP			lists files not required in the distribution
+MYMETA.json
+MYMETA.yml
 README
 t/00-load.t
 t/10-append-signature.t

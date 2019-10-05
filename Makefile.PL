@@ -6,10 +6,11 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME          => 'MIME::Signature',
     AUTHOR        => q{Martin H. Sluka <fany@cpan.org>},
-    VERSION_FROM  => 'lib/MIME/Signature.pm',
+    VERSION       => '0.2',
     ABSTRACT_FROM => 'lib/MIME/Signature.pm',
     EXE_FILES     => [
         qw{
+          bin/add-disclaimer
           bin/append-signature
           bin/dump_mail_struct
           bin/ezmlm-append-trailer
