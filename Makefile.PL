@@ -6,7 +6,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME          => 'MIME::Signature',
     AUTHOR        => q{Martin H. Sluka <fany@cpan.org>},
-    VERSION       => '0.2',
+    VERSION       => '0.21',
     ABSTRACT_FROM => 'lib/MIME/Signature.pm',
     EXE_FILES     => [
         qw{
@@ -44,11 +44,7 @@ WriteMakefile(
     META_MERGE => {
         resources => {
             homepage   => 'https://github.com/fany/MIME-Signature',
-            repository => {
-                type => 'git',
-                url  => 'https://github.com/fany/MIME-Signature.git',
-                web  => 'https://github.com/fany/MIME-Signature',
-            },
+            repository => 'https://github.com/fany/MIME-Signature.git',
         },
     },
 );
