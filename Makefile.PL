@@ -28,7 +28,7 @@ WriteMakefile(
         'HTML::Parser'             => 0,
         'MIME::Parser'             => 0,
         'Path::Tiny'               => 0,
-        'Class::Method::Modifiers' => 0,
+        'Class::Method::Modifiers' => 2.16,
     },
     TEST_REQUIRES => {
         'Test::More' => 0,

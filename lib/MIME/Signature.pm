@@ -5,7 +5,7 @@ use warnings;
 
 use base 'Exporter';
 
-our $VERSION = '0.22';
+our $VERSION = '0.23'; # Keep in sync with MIME::Disclaimer
 
 use Carp qw(croak);
 use Encode qw(decode encode encode_utf8);
