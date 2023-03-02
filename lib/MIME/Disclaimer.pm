@@ -8,7 +8,7 @@ use parent -norequire, 'MIME::Signature';
 use MIME::Signature qw(_decoded_body _replace_body);
 use Class::Method::Modifiers;
 
-our $VERSION = '0.17';
+our $VERSION = '0.23'; # keep in sync with MIME::Signature
 
 use constant EMPTY           => '';
 use constant NEWLINE         => "\n";
